@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="55.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0118" android:padding="5.0dip" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginStart="-5.0dip" android:layout_marginEnd="10.0dip" />
+    <ImageView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0119" android:padding="5.0dip" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@mipmap/APKTOOL_DUPLICATE_mipmap_0x7f0f0009" android:layout_centerVertical="true" android:layout_marginStart="-5.0dip" android:layout_marginEnd="10.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/APKTOOL_DUPLICATE_color_0x7f06003e" android:gravity="start|center" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a023f" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="" android:maxLines="1" android:layout_weight="1.0" />
+    <Space android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a01c8" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginStart="8.0dip" />
+</LinearLayout>

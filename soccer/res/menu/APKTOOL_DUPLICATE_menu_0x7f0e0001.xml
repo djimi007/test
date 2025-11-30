@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a00ae" android:title="Copy SubKey(Order)" />
+    <item android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a00af" android:title="Copy UserName" />
+</menu>

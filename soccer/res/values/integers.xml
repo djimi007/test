@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="arg">220</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0001">150</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0002">150</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0003">150</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0004">127</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0005">150</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0006">2</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0007">300</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0008">12451000</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0009">320</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b000a">300</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b000b">350</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b000c">200</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b000d">250</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b000e">75</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b000f">150</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0010">0</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0011">4</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0012">100</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0013">100</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0014">1</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0015">1</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0016">3</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0017">75</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0018">120</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b0019">100</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b001a">250</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b001b">200</integer>
+    <integer name="APKTOOL_DUPLICATE_integer_0x7f0b001c">999</integer>
+</resources>

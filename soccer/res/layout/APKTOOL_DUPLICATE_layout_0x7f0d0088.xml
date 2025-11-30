@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0137" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a023a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="Receiving messages..." android:textAlignment="viewStart" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

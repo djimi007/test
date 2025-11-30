@@ -1,0 +1,145 @@
+.class Lcom/parse/ParseUser$15;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/parse/boltsinternal/Continuation;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/parse/ParseUser;->linkWithAsync(Ljava/lang/String;Ljava/util/Map;Lcom/parse/boltsinternal/Task;Ljava/lang/String;)Lcom/parse/boltsinternal/Task;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/parse/boltsinternal/Continuation<",
+        "Ljava/lang/Void;",
+        "Lcom/parse/boltsinternal/Task<",
+        "Ljava/lang/Void;",
+        ">;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/parse/ParseUser;
+
+.field final synthetic val$authType:Ljava/lang/String;
+
+.field final synthetic val$oldAnonymousData:Ljava/util/Map;
+
+
+# direct methods
+.method constructor <init>(Lcom/parse/ParseUser;Ljava/lang/String;Ljava/util/Map;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/parse/ParseUser$15;->this$0:Lcom/parse/ParseUser;
+
+    iput-object p2, p0, Lcom/parse/ParseUser$15;->val$authType:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/parse/ParseUser$15;->val$oldAnonymousData:Ljava/util/Map;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public then(Lcom/parse/boltsinternal/Task;)Lcom/parse/boltsinternal/Task;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/parse/boltsinternal/Task<",
+            "Ljava/lang/Void;",
+            ">;)",
+            "Lcom/parse/boltsinternal/Task<",
+            "Ljava/lang/Void;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lcom/parse/ParseUser$15;->this$0:Lcom/parse/ParseUser;
+
+    iget-object v0, v0, Lcom/parse/ParseObject;->mutex:Ljava/lang/Object;
+
+    monitor-enter v0
+
+    :try_start_0
+    invoke-virtual {p1}, Lcom/parse/boltsinternal/Task;->isFaulted()Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    invoke-virtual {p1}, Lcom/parse/boltsinternal/Task;->isCancelled()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    iget-object p1, p0, Lcom/parse/ParseUser$15;->this$0:Lcom/parse/ParseUser;
+
+    iget-object v1, p0, Lcom/parse/ParseUser$15;->val$authType:Ljava/lang/String;
+
+    invoke-virtual {p1, v1}, Lcom/parse/ParseUser;->synchronizeAuthDataAsync(Ljava/lang/String;)Lcom/parse/boltsinternal/Task;
+
+    move-result-object p1
+
+    monitor-exit v0
+
+    return-object p1
+
+    :cond_1
+    :goto_0
+    iget-object v1, p0, Lcom/parse/ParseUser$15;->this$0:Lcom/parse/ParseUser;
+
+    iget-object v2, p0, Lcom/parse/ParseUser$15;->val$authType:Ljava/lang/String;
+
+    invoke-static {v1, v2}, Lcom/parse/ParseUser;->access$200(Lcom/parse/ParseUser;Ljava/lang/String;)V
+
+    iget-object v1, p0, Lcom/parse/ParseUser$15;->this$0:Lcom/parse/ParseUser;
+
+    iget-object v2, p0, Lcom/parse/ParseUser$15;->val$oldAnonymousData:Ljava/util/Map;
+
+    invoke-static {v1, v2}, Lcom/parse/ParseUser;->access$300(Lcom/parse/ParseUser;Ljava/util/Map;)V
+
+    monitor-exit v0
+
+    return-object p1
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p1
+.end method
+
+.method public bridge synthetic then(Lcom/parse/boltsinternal/Task;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    invoke-virtual {p0, p1}, Lcom/parse/ParseUser$15;->then(Lcom/parse/boltsinternal/Task;)Lcom/parse/boltsinternal/Task;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="APKTOOL_DUPLICATE_style_0x7f1200b5" parent="@style/APKTOOL_DUPLICATE_style_0x7f1200b6">
+        <item name="APKTOOL_DUPLICATE_attr_0x7f04004e">18.659973dip</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040128">24.0dip</item>
+        <item name="APKTOOL_DUPLICATE_attr_0x7f040186">3.3299866dip</item>
+    </style>
+</resources>

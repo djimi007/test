@@ -1,0 +1,1 @@
+frida -U -f com.abcd.starsking -l work.js

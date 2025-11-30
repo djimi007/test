@@ -1,0 +1,48 @@
+.class public abstract Landroidx/recyclerview/widget/iLLiliLI$II1iI;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/recyclerview/widget/iLLiliLI;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "II1iI"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract II1iI(II)Z
+.end method
+
+.method public abstract O0oOo00oOO()I
+.end method
+
+.method public abstract lILLl1lI1l1(II)Z
+.end method
+
+.method public lIlL(II)Ljava/lang/Object;
+    .locals 0
+    .annotation build Landroidx/annotation/OOOO;
+    .end annotation
+
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public abstract oo0OOo00ooo()I
+.end method

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a00a9" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a00ad" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <View android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0216" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no" />
-        <FrameLayout android:layout_gravity="center|top" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a00c7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f0401db="@string/APKTOOL_DUPLICATE_string_0x7f110020" style="?APKTOOL_DUPLICATE_attr_0x7f040063" />
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
-</FrameLayout>

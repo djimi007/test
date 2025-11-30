@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:gravity="start|bottom" android:layout_gravity="start|top" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a016e" android:paddingBottom="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070290" android:layout_width="fill_parent" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040162="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070294" app:APKTOOL_DUPLICATE_attr_0x7f040220="@dimen/APKTOOL_DUPLICATE_dimen_0x7f070285" style="?APKTOOL_DUPLICATE_attr_0x7f040243"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

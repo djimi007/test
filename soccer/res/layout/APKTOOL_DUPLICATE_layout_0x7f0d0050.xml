@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.kongzue.dialogx.util.views.DialogXBaseRelativeLayout android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0079" android:background="@color/APKTOOL_DUPLICATE_color_0x7f060034" android:layout_width="fill_parent" android:layout_height="fill_parent" app:APKTOOL_DUPLICATE_attr_0x7f040039="false" app:APKTOOL_DUPLICATE_attr_0x7f040052="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.kongzue.dialogx.util.views.MaxRelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0071" android:background="@drawable/APKTOOL_DUPLICATE_drawable_0x7f08010c" android:clickable="true" android:layout_width="100.0dip" android:layout_height="wrap_content" android:elevation="30.0dip">
-        <RelativeLayout android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0074" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <com.kongzue.dialogx.util.views.PopMenuListView android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0130" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/APKTOOL_DUPLICATE_color_0x7f0600a1" android:layout_below="@id/APKTOOL_DUPLICATE_id_0x7f0a0074" />
-    </com.kongzue.dialogx.util.views.MaxRelativeLayout>
-</com.kongzue.dialogx.util.views.DialogXBaseRelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.button.MaterialButtonToggleGroup android:orientation="horizontal" android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0147" android:background="?APKTOOL_DUPLICATE_attr_0x7f0400d1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:APKTOOL_DUPLICATE_attr_0x7f040088="@id/APKTOOL_DUPLICATE_id_0x7f0a0145" app:APKTOOL_DUPLICATE_attr_0x7f040328="true" app:APKTOOL_DUPLICATE_attr_0x7f04033a="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Button android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0145" android:layout_width="0.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f110059" android:layout_weight="1.0" android:insetTop="4.0dip" android:insetBottom="4.0dip" style="?APKTOOL_DUPLICATE_attr_0x7f04023a" />
-    <Button android:id="@id/APKTOOL_DUPLICATE_id_0x7f0a0146" android:layout_width="0.0dip" android:text="@string/APKTOOL_DUPLICATE_string_0x7f11005d" android:layout_weight="1.0" android:insetTop="4.0dip" android:insetBottom="4.0dip" style="?APKTOOL_DUPLICATE_attr_0x7f04023a" />
-</com.google.android.material.button.MaterialButtonToggleGroup>
